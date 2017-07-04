@@ -2,370 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032021f5-9c4e-466b-9cb5-3e5711be7384" name="Default" comment="First Commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dxs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/forma_obucheniya.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/plan_razmesheniya_zakazov.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_komandirovkah.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_normativnom_loc_acte.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_perevode_na_druguy_programmy.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_polzovanii_bibliotechnimi_resursami.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_poryadke_priema_na_op.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_sokrawennih_programmah.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_sovete_roditeley.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_tec_promejut_attestacii.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_o_vedenii_saita.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_ob_obwem_sobranii_rabotnokov.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_ob_pedsovete.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_priem_i_otbor_jiwopis.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_provedeniya_attestacii.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/polojenie_vidacha_svidetelstva_po_dopolnitelnim.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/poryadoc_oformleniya_prekrawenii_ontowenyi.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/poryadoc_osvoenie_rezultatov.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/poryadoc_oznakomleniya_s_ustavom.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/poryadoc_posewenyi_meropriyatii.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/poryadoc_vidachi_svidetelstva.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/poryadoc_zachota.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/docs/pravila_povedeniya_uchashihsya.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/kak_zapisatsa/zayavlenie_roditelei.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/kak_zapisatsa/zayvlenie_roditelei_podgotovishki.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/215.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cup.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ico2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/marker_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/photo/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/school.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/slider/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/slider/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/slider/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/slider/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/app.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/c4321c18-b5ee-493f-830f-192f403490ad.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dxs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_ide_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Events/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Jobs/Job.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/artisan" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/compile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/.env.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Console/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Exceptions/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Controllers/Auth/ForgotPasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Controllers/Auth/LoginController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Controllers/Auth/RegisterController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Controllers/Auth/ResetPasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Middleware/EncryptCookies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Middleware/TrimStrings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Providers/AppServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Providers/AuthServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Providers/BroadcastServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Providers/EventServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/Providers/RouteServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/app/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/artisan" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/bootstrap/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/bootstrap/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/broadcasting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/filesystems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/config/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/database/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/database/seeds/DatabaseSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/public/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/assets/js/components/Example.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/assets/sass/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/assets/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/lang/en/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/lang/en/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/lang/en/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/lang/en/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/resources/views/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/routes/api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/routes/channels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/routes/console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/routes/web.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/app/public/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/framework/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/framework/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/framework/sessions/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/framework/testing/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/framework/views/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/storage/logs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/tests/CreatesApplication.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/tests/Feature/ExampleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/tests/Unit/ExampleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara5_4/webpack.mix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.app" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.app.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/build/css/app-44b67544ca.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/build/css/app.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/build/css/media-7e895b7f1f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/build/css/media.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/build/rev-manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/devices.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/media.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/template_fontminus.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/template_fontplus.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/template_simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app2.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/pace.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/public/js/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/jquery-2.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/main.app.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/selectivizr-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_badges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_button-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_component-animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_dropdowns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_glyphicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_input-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_modals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_navs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_pager.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_responsive-embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_responsive-utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_thumbnails.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/_wells.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_center-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_nav-vertical-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_opacity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_reset-filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_responsive-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_tab-focus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_text-overflow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/bootstrap/mixins/_vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/devices.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/base.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/contacts.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/news.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/news/historyschool.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/news/kak_zapisatsa_v_shkoly.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/page.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/rightmenu.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/schoolinfo/basicinfo.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/schoolinfo/docs.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/schoolinfo/staff.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dxs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dxs.iml" afterPath="$PROJECT_DIR$/.idea/dxs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dxs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -457,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="599" column="13" lean-forward="false" selection-start-line="599" selection-start-column="13" selection-end-line="599" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="e#799#866#0" expanded="false" />
                 <element signature="e#880#1131#0" expanded="false" />
@@ -498,21 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_component-animations.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/sass/bootstrap/_component-animations.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -862,12 +491,20 @@
       <workItem from="1498826125701" duration="40687000" />
       <workItem from="1498981084788" duration="6168000" />
       <workItem from="1498989606269" duration="15185000" />
-      <workItem from="1499175653772" duration="4057000" />
+      <workItem from="1499175653772" duration="6010000" />
     </task>
+    <task id="LOCAL-00001" summary="Init Project">
+      <created>1499179938369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499179938369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264223000" />
+    <option name="totallyTimeSpent" value="266176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,7 +523,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17673522" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2153432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.243607" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -936,6 +573,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1111,6 +752,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#177#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,6 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,6 +829,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,22 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/bootstrap/_component-animations.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1317,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="599" column="13" lean-forward="false" selection-start-line="599" selection-start-column="13" selection-end-line="599" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#799#866#0" expanded="false" />
             <element signature="e#880#1131#0" expanded="false" />
@@ -1351,6 +981,22 @@
             <element signature="e#10506#10553#0" expanded="false" />
             <element signature="e#11672#12311#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/bootstrap/_component-animations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
