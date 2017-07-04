@@ -1,3 +1,5 @@
+$blue-dark: #5384a2;
+
 @media all and (max-width: 1024px) {
   html, body {
     div.mid {
@@ -11,10 +13,10 @@
     }
     .header {
       .mid {
-        padding: 0px;
+        padding: 0;
       }
       .logotext {
-        padding-top: 0px;
+        padding-top: 0;
         h2 {
           font-size: 27px;
         }
@@ -81,8 +83,19 @@
   }
 }
 
+@media all and (max-width: 815px) {
+  html, body {
+    div.mid {
+      width: 100%;
+    }
+  }
+}
+
 @media all and (max-width: 767px) {
   html, body {
+    div.mid {
+      width: 100%;
+    }
     .header {
       .logotext {
         width: 90%;
@@ -107,7 +120,14 @@
       }
       .navbar-default {
         .navbar-nav {
-          margin: 7.5px 0px;
+          margin: 7.5px 0;
+          >li >a , >li >a:hover{
+            border-top: 0;
+            text-align: left;
+            &::before{
+              height: 0;
+            }
+          }
         }
         .menutitle {
           display: block;
@@ -118,20 +138,21 @@
         }
       }
       .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin-right: 0px;
+        margin-right: 0;
       }
     }
     .carousel {
-      margin-top: 0px;
+      margin: 0;
+      outline: 0;
     }
     .carousel-control {
       width: 10%;
     }
     .carousel-caption {
-      bottom: 0px;
+      bottom: 0;
       height: 50px;
       line-height: 50px;
-      font-size: 16px;
+      font-size: 14px;
       padding: 0 20px;
     }
     .articleblock {
@@ -147,7 +168,7 @@
     .body {
       background: #FFF;
     }
-    .footer{
+    .footer {
       .bottommenu {
         display: none;
       }
@@ -163,8 +184,6 @@
       font-size: 20px;
     }
   }
-
-
 }
 
 @media all and (max-width: 725px) {
@@ -172,58 +191,94 @@
     right: auto;
     left: 5%;
   }
-  .contentpage article.staffarticle {
-    width: 100%;
-    background: #f3f7f9;
-  }
-  .contentpage article.staffarticle .columngray,
-  .contentpage article.staffarticle .columnwhite {
-    width: 320px;
-    background: white;
-    position: relative;
-    left: 50%;
-    display: block;
-    margin-left: -160px;
-  }
-  .staffblock {
-    padding: 20px 5%;
-  }
-  .staffblock > img {
-    border-radius: 50%;
-  }
-  .staffblock p {
-    text-align: left;
-    width: 240px;
-    margin: 0 auto;
+  html, body {
+    .articleblock{
+      h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+        background: $blue-dark;
+        color: white;
+        border-left:0;
+        &:hover{
+          border-left: 0;
+        }
+        a{
+          color: white;
+        }
+      }
+    }
+    .contentheader{
+      &.margins{
+        margin-bottom: 0;
+      }
+    }
+    .contentpage {
+      article {
+        &.staffarticle {
+          width: 100%;
+          background: #f3f7f9;
+          .columngray, .columnwhite {
+            width: 320px;
+            background: white;
+            position: relative;
+            left: 50%;
+            display: block;
+            margin-left: -160px;
+            .staffblock {
+              padding: 20px 5%;
+              > img {
+                border-radius: 50%;
+              }
+              p {
+                text-align: left;
+                width: 240px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
 @media all and (max-width: 560px) {
-  .contentheader {
-    height: auto;
-  }
-  .contentheader h2 {
-    font-size: 24px;
-  }
-  .contentheader .breadcrumb {
-    margin-bottom: 0px;
+  html, body {
+    .contentheader {
+      box-shadow: none;
+      height: auto;
+      h2 {
+        font-size: 24px;
+      }
+      .breadcrumb {
+        margin-bottom: 0;
+      }
+      &.margins{
+        .mid{
+          padding: 0;
+        }
+      }
+    }
+    .carousel{
+      box-shadow: none;
+    }
+    .carousel-caption {
+      font-size: 11px;
+    }
   }
 }
 
 @media all and (max-width: 384px) {
-  .articleblock .infoblock {
-    text-align: center;
+  html, body {
+    .articleblock {
+      .infoblock {
+        text-align: center;
+        p {
+          margin: 20px 0;
+          margin-bottom: 0;
+        }
+      }
+    }
   }
-  .articleblock .infoblock p {
-    margin: 20px 0px;
-    margin-bottom: 0px;
-  }
-
-}
-
-@media all and (max-width: 815px) {
-  div.mid {
-    width: 100%;
-  }
-
 }

@@ -9,10 +9,10 @@
     display: none;
   }
   html .header .mid, body .header .mid {
-    padding: 0px;
+    padding: 0;
   }
   html .header .logotext, body .header .logotext {
-    padding-top: 0px;
+    padding-top: 0;
   }
   html .header .logotext h2, body .header .logotext h2 {
     font-size: 27px;
@@ -67,7 +67,16 @@
   }
 }
 
+@media all and (max-width: 815px) {
+  html div.mid, body div.mid {
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 767px) {
+  html div.mid, body div.mid {
+    width: 100%;
+  }
   html .header .logotext, body .header .logotext {
     width: 90%;
   }
@@ -89,7 +98,14 @@
     text-align: left;
   }
   html .graymenu .navbar-default .navbar-nav, body .graymenu .navbar-default .navbar-nav {
-    margin: 7.5px 0px;
+    margin: 7.5px 0;
+  }
+  html .graymenu .navbar-default .navbar-nav > li > a, html .graymenu .navbar-default .navbar-nav > li > a:hover, body .graymenu .navbar-default .navbar-nav > li > a, body .graymenu .navbar-default .navbar-nav > li > a:hover {
+    border-top: 0;
+    text-align: left;
+  }
+  html .graymenu .navbar-default .navbar-nav > li > a::before, html .graymenu .navbar-default .navbar-nav > li > a:hover::before, body .graymenu .navbar-default .navbar-nav > li > a::before, body .graymenu .navbar-default .navbar-nav > li > a:hover::before {
+    height: 0;
   }
   html .graymenu .navbar-default .menutitle, body .graymenu .navbar-default .menutitle {
     display: block;
@@ -99,19 +115,20 @@
     margin-left: 30px;
   }
   html .graymenu .container-fluid > .navbar-collapse, html .graymenu .container-fluid > .navbar-header, html .graymenu .container > .navbar-collapse, html .graymenu .container > .navbar-header, body .graymenu .container-fluid > .navbar-collapse, body .graymenu .container-fluid > .navbar-header, body .graymenu .container > .navbar-collapse, body .graymenu .container > .navbar-header {
-    margin-right: 0px;
+    margin-right: 0;
   }
   html .carousel, body .carousel {
-    margin-top: 0px;
+    margin: 0;
+    outline: 0;
   }
   html .carousel-control, body .carousel-control {
     width: 10%;
   }
   html .carousel-caption, body .carousel-caption {
-    bottom: 0px;
+    bottom: 0;
     height: 50px;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 20px;
   }
   html .articleblock, body .articleblock {
@@ -147,12 +164,28 @@
     right: auto;
     left: 5%;
   }
-  .contentpage article.staffarticle {
+  html .articleblock h2, body .articleblock h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    background: #5384a2;
+    color: white;
+    border-left: 0;
+  }
+  html .articleblock h2:hover, body .articleblock h2:hover {
+    border-left: 0;
+  }
+  html .articleblock h2 a, body .articleblock h2 a {
+    color: white;
+  }
+  html .contentheader.margins, body .contentheader.margins {
+    margin-bottom: 0;
+  }
+  html .contentpage article.staffarticle, body .contentpage article.staffarticle {
     width: 100%;
     background: #f3f7f9;
   }
-  .contentpage article.staffarticle .columngray,
-  .contentpage article.staffarticle .columnwhite {
+  html .contentpage article.staffarticle .columngray, html .contentpage article.staffarticle .columnwhite, body .contentpage article.staffarticle .columngray, body .contentpage article.staffarticle .columnwhite {
     width: 320px;
     background: white;
     position: relative;
@@ -160,13 +193,13 @@
     display: block;
     margin-left: -160px;
   }
-  .staffblock {
+  html .contentpage article.staffarticle .columngray .staffblock, html .contentpage article.staffarticle .columnwhite .staffblock, body .contentpage article.staffarticle .columngray .staffblock, body .contentpage article.staffarticle .columnwhite .staffblock {
     padding: 20px 5%;
   }
-  .staffblock > img {
+  html .contentpage article.staffarticle .columngray .staffblock > img, html .contentpage article.staffarticle .columnwhite .staffblock > img, body .contentpage article.staffarticle .columngray .staffblock > img, body .contentpage article.staffarticle .columnwhite .staffblock > img {
     border-radius: 50%;
   }
-  .staffblock p {
+  html .contentpage article.staffarticle .columngray .staffblock p, html .contentpage article.staffarticle .columnwhite .staffblock p, body .contentpage article.staffarticle .columngray .staffblock p, body .contentpage article.staffarticle .columnwhite .staffblock p {
     text-align: left;
     width: 240px;
     margin: 0 auto;
@@ -174,30 +207,36 @@
 }
 
 @media all and (max-width: 560px) {
-  .contentheader {
+  html .contentheader, body .contentheader {
+    -webkit-box-shadow: none;
+            box-shadow: none;
     height: auto;
   }
-  .contentheader h2 {
+  html .contentheader h2, body .contentheader h2 {
     font-size: 24px;
   }
-  .contentheader .breadcrumb {
-    margin-bottom: 0px;
+  html .contentheader .breadcrumb, body .contentheader .breadcrumb {
+    margin-bottom: 0;
+  }
+  html .contentheader.margins .mid, body .contentheader.margins .mid {
+    padding: 0;
+  }
+  html .carousel, body .carousel {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  html .carousel-caption, body .carousel-caption {
+    font-size: 11px;
   }
 }
 
 @media all and (max-width: 384px) {
-  .articleblock .infoblock {
+  html .articleblock .infoblock, body .articleblock .infoblock {
     text-align: center;
   }
-  .articleblock .infoblock p {
-    margin: 20px 0px;
-    margin-bottom: 0px;
-  }
-}
-
-@media all and (max-width: 815px) {
-  div.mid {
-    width: 100%;
+  html .articleblock .infoblock p, body .articleblock .infoblock p {
+    margin: 20px 0;
+    margin-bottom: 0;
   }
 }
 
