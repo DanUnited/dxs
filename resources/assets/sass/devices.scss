@@ -1,0 +1,229 @@
+@media all and (max-width: 1024px) {
+  html, body {
+    div.mid {
+      width: 798px;
+    }
+    .topbar .mid {
+      padding: 0 5%;
+    }
+    .rightside {
+      display: none;
+    }
+    .header {
+      .mid {
+        padding: 0px;
+      }
+      .logotext {
+        padding-top: 0px;
+        h2 {
+          font-size: 27px;
+        }
+      }
+      .school_img img {
+        width: 100%;
+      }
+    }
+    .graymenu {
+      height: 40px;
+      .navbar {
+        min-height: 40px !important;
+      }
+      .navbar-nav > li > a, .navbar-brand {
+        height: 40px;
+      }
+      .navbar-default .navbar-nav {
+        .open {
+          .dropdown-menu {
+            font-size: 13px;
+          }
+        }
+        > li, li:first-child {
+          border: 0;
+        }
+        > li:nth-child(2) > a {
+          padding: 10px 30px;
+        }
+        > li {
+          > a, > a:hover {
+            padding: 10px 30px;
+            font-size: 15px;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+    .articleblock {
+      float: none;
+      width: 100%;
+      .infoblock {
+        margin: 20px 0;
+        display: inline-block;
+        width: 48%;
+        p {
+          width: 200px;
+        }
+      }
+    }
+    .contentpage {
+      .rightmenu {
+        display: none;
+      }
+      article {
+        position: relative;
+        width: 100%;
+      }
+    }
+    .contentheader {
+      .mid {
+        padding: 30px 30px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  html, body {
+    .header {
+      .logotext {
+        width: 90%;
+      }
+      .school_img {
+        display: none;
+      }
+    }
+    .graymenu {
+      height: auto;
+      background: white;
+      .navbar {
+        height: auto !important;
+        > li {
+          > a, > a:hover,
+          &:nth-child(2) > a {
+            padding: 10px 0;
+            padding-left: 30px;
+            text-align: left;
+          }
+        }
+      }
+      .navbar-default {
+        .navbar-nav {
+          margin: 7.5px 0px;
+        }
+        .menutitle {
+          display: block;
+        }
+        .navbar-toggle {
+          float: left;
+          margin-left: 30px;
+        }
+      }
+      .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin-right: 0px;
+      }
+    }
+    .carousel {
+      margin-top: 0px;
+    }
+    .carousel-control {
+      width: 10%;
+    }
+    .carousel-caption {
+      bottom: 0px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      padding: 0 20px;
+    }
+    .articleblock {
+      outline: 0;
+      * {
+        padding: 0 5%;
+      }
+      .infoblock {
+        margin: 10px 0;
+        width: 100%;
+      }
+    }
+    .body {
+      background: #FFF;
+    }
+    .footer{
+      .bottommenu {
+        display: none;
+      }
+      .footerabout .enroll {
+        padding: 15px 10%;
+        margin-bottom: 20px;
+      }
+    }
+    .head3 {
+      font-size: 20px;
+    }
+    .head1 {
+      font-size: 20px;
+    }
+  }
+
+
+}
+
+@media all and (max-width: 725px) {
+  .affix {
+    right: auto;
+    left: 5%;
+  }
+  .contentpage article.staffarticle {
+    width: 100%;
+    background: #f3f7f9;
+  }
+  .contentpage article.staffarticle .columngray,
+  .contentpage article.staffarticle .columnwhite {
+    width: 320px;
+    background: white;
+    position: relative;
+    left: 50%;
+    display: block;
+    margin-left: -160px;
+  }
+  .staffblock {
+    padding: 20px 5%;
+  }
+  .staffblock > img {
+    border-radius: 50%;
+  }
+  .staffblock p {
+    text-align: left;
+    width: 240px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .contentheader {
+    height: auto;
+  }
+  .contentheader h2 {
+    font-size: 24px;
+  }
+  .contentheader .breadcrumb {
+    margin-bottom: 0px;
+  }
+}
+
+@media all and (max-width: 384px) {
+  .articleblock .infoblock {
+    text-align: center;
+  }
+  .articleblock .infoblock p {
+    margin: 20px 0px;
+    margin-bottom: 0px;
+  }
+
+}
+
+@media all and (max-width: 815px) {
+  div.mid {
+    width: 100%;
+  }
+
+}

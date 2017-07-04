@@ -1,0 +1,207 @@
+@media all and (max-width: 1024px){
+    div.mid{
+        width: 798px;
+    }
+    .topbar .mid{
+        padding: 0 5%;
+    }
+    .rightside{
+        display: none;
+    }
+    .header .mid{
+        padding: 0px;
+    }
+    .header .logotext{
+        padding-top: 0px;
+
+    }
+    .header .logotext h2{
+        font-size: 27px;
+    }
+    .header .school_img img{
+        width: 100%;
+    }
+    .graymenu{
+        height: 40px;
+    }
+    .graymenu .navbar-nav > li > a, .navbar-brand {
+        height: 40px;
+    }
+    .graymenu .navbar {min-height:40px !important;}
+
+    .graymenu .navbar-default .navbar-nav>li>a,
+    .graymenu .navbar-default .navbar-nav>li>a:hover{
+        padding: 10px 22%;
+        font-size: 15px;
+    }
+    .graymenu .navbar-default .navbar-nav>li,
+    .graymenu .navbar-default .navbar-nav li:first-child{
+        border: 0;
+    }
+    .graymenu .navbar-default .navbar-nav>li:nth-child(2)>a{
+        padding: 10px 18%;
+    }
+    .navbar-nav .open .dropdown-menu{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .articleblock{
+        float: none;
+        width: 100%;
+    }
+    .articleblock .infoblock {
+        margin: 20px 0;
+        display: inline-block;
+        width: 48%;
+    }
+    .articleblock .infoblock p{
+        width: 200px;
+    }
+    .contentpage article.staffarticle{
+        width: 100%;
+    }
+    .contentpage .rightmenu{
+        display: none;
+    }
+    .contentheader{
+        height: 120px;
+    }
+    .contentheader .mid {
+        padding: 30px 30px;
+    }
+    .contentpage article.staffarticle{
+        width: auto;
+    }
+}
+@media all and (max-width: 767px){
+    .menutitle{
+        display: block;
+    }
+    .graymenu .navbar{
+        height: auto !important;
+    }
+    .graymenu{
+        height: auto;
+        background: white;
+    }
+    .navbar-toggle{
+        float: left;
+        margin-left: 30px;
+    }
+    .navbar-nav{
+        margin: 7.5px 0px;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        margin-right: 0px;
+    }
+    .graymenu .navbar-default .navbar-nav>li>a,
+    .graymenu .navbar-default .navbar-nav>li>a:hover,
+    .graymenu .navbar-default .navbar-nav>li:nth-child(2)>a{
+        padding: 10px 0;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .carousel{
+        margin-top: 0px;
+    }
+    .carousel-control{
+        width: 10%;
+    }
+    .carousel-caption{
+        bottom: 0px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .articleblock{
+        outline: 0;
+    }
+    .body{
+        background: #FFF;
+    }
+    .header .logotext{
+        width: 90%;
+    }
+    .header .school_img{
+        display: none;
+    }
+    .articleblock .infoblock{
+        margin: 10px 0;
+        width: 100%;
+    }
+    .articleblock *{
+        padding: 0 5%;
+    }
+    .footer .bottommenu{
+        display: none;
+    }
+    .footer .footerabout .enroll{
+        padding: 15px 10%;
+        margin-bottom: 20px;
+    }
+    .head3{
+        font-size: 20px;
+    }
+    .head1{
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 725px){
+    .affix{
+        right: auto;
+        left: 5%;
+    }
+    .contentpage article.staffarticle {
+        width: 100%;
+        background: #f3f7f9;
+    }
+    .contentpage article.staffarticle .columngray,
+    .contentpage article.staffarticle .columnwhite{
+        width: 320px;
+        background: white;
+        position: relative;
+        left: 50%;
+        display: block;
+        margin-left: -160px;
+    }
+    .staffblock{
+        padding: 20px 5%;
+    }
+    .staffblock>img{
+        border-radius: 50%;
+    }
+    .staffblock p{
+        text-align: left;
+        width: 240px;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 560px) {
+    .contentheader{
+        height: auto;
+    }
+    .contentheader h2{
+        font-size: 24px;
+    }
+    .contentheader .breadcrumb{
+        margin-bottom: 0px;
+    }
+}
+@media all and (max-width: 384px) {
+    .articleblock .infoblock{
+        text-align: center;
+    }
+    .articleblock .infoblock p{
+        margin: 20px 0px;
+        margin-bottom: 0px;
+    }
+
+}
+@media all and (max-width: 815px) {
+    div.mid{
+        width: 100%;
+    }
+
+}

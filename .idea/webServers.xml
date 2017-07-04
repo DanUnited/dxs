@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0d793f1e-b86e-44f4-85d1-c8fb398ec521" name="dxs.ftp" url="http://ftp.xnd1a8aj.1gb.ru">
+        <fileTransfer host="ftp.xnd1a8aj.1gb.ru" port="21" rootFolder="/http" password="df93df9edf9bdf93df9cdfcfdf9cdfc9dfc8df93df9a" username="w_xnd1a8aj_254455f1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

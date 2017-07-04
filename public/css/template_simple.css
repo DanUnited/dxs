@@ -1,0 +1,89 @@
+.topbar{
+    background: #000;
+}
+.carousel {
+    display: none;
+}
+.header .logotext {
+    color: black;
+}
+.graymenu .navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    background: #000;
+}
+.graymenu .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #FFF;
+    background: #000;
+}
+.body{
+    padding-bottom: 450px;
+    background: #F5F5F5;
+}
+.contentheader{
+    background: #FFF;
+    border-bottom: 1px solid #DFE4E7;
+}
+.contentheader h2{
+    color: #000;
+}
+.contentheader .breadcrumb{
+    color: #000;
+}
+.contentheader .breadcrumb a{
+    color: #000;
+}
+.articleblock{
+    display: block;
+    width: 100%;
+    margin: 50px 0px;
+    margin-bottom: 0px;
+}
+.articleblock .infoblock{
+    margin: 10px 0;
+    width: 48%;
+    display: inline-block;
+}
+.articleblock .readmore{
+    text-align: left;
+}
+.contentpage article.staffarticle .columngray{
+    background: white;
+}
+.staffblock img{
+    border-radius: 50%;
+}
+.contentpage .rightmenu ul{
+    color: black;
+}
+.contentpage .rightmenu ul a{
+    color: black;
+}
+.footer{
+    background: #FFF;
+    color: #000;
+    border-top: 1px solid #DFE4E7;
+    margin-top: 50px;
+}
+.footer .bottommenu ul li a{
+    color: #000;
+}
+
+.footer .footerabout .enroll{
+    background: #c6c6c6;
+    color: #000;
+    transition: none;
+}
+.footer .footerabout .enroll:hover{
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+    background: white;
+    border: 1px solid black;
+}
+.rightside span:hover, .rightside abbr:hover {
+    background: #FFF;
+    color: black;
+}
+.rightside .active{
+    background: #4E4E4E;
+}

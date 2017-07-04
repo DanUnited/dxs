@@ -1,0 +1,63 @@
+.topbar {
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+}
+.header{
+    height: 300px;
+}
+
+.header .logotext{
+    font-size: 16px;
+}
+.header .logotext h2{
+    font-size: 35px;
+}
+.graymenu .navbar-default .navbar-nav>li>a {
+    padding: 15px 41px;
+    font-size: 18px;
+    /*font-weight: bold;*/
+}
+.graymenu .navbar-default .navbar-nav>li>a:hover {
+    padding: 15px 41px;
+    font-size: 18px;
+}
+.articleblock h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.articleblock article {
+    font-size: 18px;
+    line-height: 30px;
+}
+.articleblock .infoblock p{
+    font-size: 18px;
+}
+.footer .bottommenu {
+    font-size: 17px;
+}
+.contentheader h2 {
+    font-size: 30px;
+}
+.contentheader .breadcrumb{
+    font-size: 16px;
+}
+.contentpage article{
+    font-size: 17px;
+    line-height: 25px;
+}
+.staffblock h3{
+    font-size: 21px;
+    line-height: 30px;
+}
+.contentpage .rightmenu ul{
+    font-size: 18px;
+    line-height: 25px;
+}
+.contentpage .rightmenu ul ul{
+    line-height: 23px;
+    font-size: 15px;
+}
+.tabledoc{
+    font-size: 16px;
+}
