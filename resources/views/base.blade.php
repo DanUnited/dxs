@@ -28,8 +28,12 @@
                         <abbr class="fontminus" title="Уменьшить шрифт">Aa-</abbr>
                         <span id="simpletemplate">
                             <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-                            <span class="text" >Версия для слабовидящих</span>
+                            <span class="text" >Для слабовидящих</span>
                         </span>
+                         <abbr title="Авторизация" id="auth">
+                             <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                             <span>Войти</span>
+                         </abbr>
                     </span>
             </div>
         </div>
@@ -67,7 +71,7 @@
                         <div class="navbar-collapse collapse" id="bs-navbar">
                             <ul class="nav navbar-nav">
                                 <li class="{{ Ekko::isActiveRoute('main') }}"><a href="/">Главная <span class="sr-only">(current)</span></a></li>
-                                <li class="dropdown {{ Ekko::isActiveRoute('compinfo') }}">
+                                <li class="dropdown {{ Ekko::isActiveRoute('article') }}">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Сведения об организации <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/schoolinfo/basicinfo">Основные сведения</a></li>
@@ -120,6 +124,11 @@
             <i class="glyphicon glyphicon-chevron-up"></i> Наверх
         </a>
     </span>
+</div>
+<div class="user-form" id="auth-form" data-vision="1" style="display: none">
+    <div class="outer">
+        @include('auth.login')
+    </div>
 </div>
 </body>
 <script src="/js/app.min.js"></script>

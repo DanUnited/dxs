@@ -9,7 +9,6 @@ window.addCss = function($filename){
     link.media = 'all';
     head.appendChild(link);
 };
-
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -30,7 +29,19 @@ function getCookie(cname) {
     }
     return "";
 }
+
+jQuery(document).ready(function() {
+    jQuery('.articleblock').addClass('scale0');
+    jQuery('.articleblock h2').viewportChecker({
+        offset: 0,
+        callbackFunction: function(elem, action){
+            $(elem[0].parentElement).addClass('show');
+        },
+    });
+});
+
 $(function() {
+
     function TemplateButton(){
         if(getCookie('template')!='simple'){
             /**
@@ -89,6 +100,19 @@ $(function() {
     bindFontButtons();
     $('#simpletemplate').click(TemplateButton);
 
+    //Show login form
+    $('#auth,#auth>*').click(function(){
+        var $form = document.querySelector('.user-form');
+        if($form.dataset.vision == 1){
+            $($form).fadeIn();
+        }
+    });
+
+    //Close button in login-form
+    $(".back").click(function(){
+        $('.user-form').fadeOut();
+    });
+
 
     if ( ($(window).height() + 100) < $(document).height() ) {
         $('#top-link-block').removeClass('hidden').affix({
@@ -96,7 +120,8 @@ $(function() {
             offset: {top:100}
         });
     }
-    
+
+
     var mapdiv = document.getElementById('map');
     function initialize() {
             $(mapdiv).height(400);

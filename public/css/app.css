@@ -3323,7 +3323,7 @@ html .topbar, body .topbar {
   width: 100%;
   background: #5384a2;
   color: white;
-  line-height: 50px;
+  line-height: 49px;
   font-size: 16px;
   border-bottom: 1px solid #ffffff;
   -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.32);
@@ -3396,7 +3396,7 @@ html .contentheader.margins, body .contentheader.margins {
 }
 
 html .contentheader .mid, body .contentheader .mid {
-  padding: 50px 30px;
+  padding: 35px 30px 10px;
 }
 
 html .contentheader h2, body .contentheader h2 {
@@ -3544,6 +3544,10 @@ html .graymenu .navbar-default .navbar-nav > .open > a, body .graymenu .navbar-d
   line-height: 17px;
 }
 
+html .graymenu .navbar-default .navbar-nav .dropdown.active a, body .graymenu .navbar-default .navbar-nav .dropdown.active a {
+  pointer-events: auto;
+}
+
 html .graymenu .navbar-default .navbar-nav .dropdown-menu, body .graymenu .navbar-default .navbar-nav .dropdown-menu {
   background: #f3f7f9;
   border-top: 0;
@@ -3676,15 +3680,17 @@ html .footer .footerabout .enroll, body .footer .footerabout .enroll {
   font-size: 14px;
   color: white;
   margin-bottom: 40px;
-  -webkit-transition: "all 0.8s ease-out 0.2s";
-  transition: "all 0.8s ease-out 0.2s";
+  -webkit-transition: all 0.2s ease-out 0.2s;
+  transition: all 0.2s ease-out 0.2s;
 }
 
 html .footer .footerabout .enroll:hover, body .footer .footerabout .enroll:hover {
   text-decoration: none;
-  background: #1d1d1d;
-  color: white;
-  font-weight: normal;
+  background: orange;
+  color: #222;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 html .head1, body .head1 {
@@ -3709,6 +3715,22 @@ html .articleblock, body .articleblock {
   vertical-align: top;
   padding-bottom: 20px;
   margin-bottom: 50px;
+}
+
+html .articleblock.scale0, body .articleblock.scale0 {
+  -webkit-transform: translateY(0) scale(0);
+          transform: translateY(0) scale(0);
+  -webkit-transition: none;
+  transition: none;
+}
+
+html .articleblock.show, body .articleblock.show {
+  -webkit-transform: translateY(0) scale(1);
+          transform: translateY(0) scale(1);
+  -webkit-transition: -webkit-transform ease .8s;
+  transition: -webkit-transform ease .8s;
+  transition: transform ease .8s;
+  transition: transform ease .8s, -webkit-transform ease .8s;
 }
 
 html .articleblock.right, body .articleblock.right {
@@ -4004,6 +4026,98 @@ html .contentpage .tabledoc tr td a, body .contentpage .tabledoc tr td a {
 
 html .contentpage .tabledoc tr td a:hover, body .contentpage .tabledoc tr td a:hover {
   text-decoration: none;
+}
+
+html .user-form, body .user-form {
+  display: table;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #5384a2;
+  color: #5384a2;
+}
+
+html .user-form .outer, body .user-form .outer {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -20%;
+}
+
+html .user-form .outer > h2, body .user-form .outer > h2 {
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+html .user-form .outer > h2 p:nth-child(2), body .user-form .outer > h2 p:nth-child(2) {
+  font-size: 12px;
+}
+
+html .user-form .outer .panel-body, body .user-form .outer .panel-body {
+  max-width: 340px;
+  position: relative;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.35);
+  padding: 10px 20px;
+}
+
+html .user-form .outer .panel-body .back, body .user-form .outer .panel-body .back {
+  position: absolute;
+  width: auto;
+  top: 0;
+  left: 0;
+  padding: 5px 20px;
+  background: #f9fafc;
+  border-radius: 5px 0px 0px 0px;
+  cursor: pointer;
+  color: #5384a2;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+html .user-form .outer .panel-body .back:hover, body .user-form .outer .panel-body .back:hover {
+  background: #5384a2;
+  color: white;
+}
+
+html .user-form .outer .panel-body .bottompanel, body .user-form .outer .panel-body .bottompanel {
+  position: absolute;
+  left: 0;
+  background: #f9fafc;
+  width: 340px;
+  padding: 10px 20px 0px;
+  border-radius: 5px;
+  border-top: 1px solid #efefef;
+  margin-top: 5px;
+}
+
+html .user-form .outer .panel-body .form-group, body .user-form .outer .panel-body .form-group {
+  text-align: right;
+}
+
+html .user-form .outer .panel-body .form-group .btn-primary, body .user-form .outer .panel-body .form-group .btn-primary {
+  border: 0;
+}
+
+html .user-form .outer .panel-body .form-group .btn-primary:hover, body .user-form .outer .panel-body .form-group .btn-primary:hover {
+  color: white;
+  background-color: #f39c12;
+  border: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+html .user-form .outer .panel-body .form-group .col-md-6, body .user-form .outer .panel-body .form-group .col-md-6 {
+  padding: 0;
+}
+
+html .user-form .outer .panel-body .form-group .col-md-6 a, body .user-form .outer .panel-body .form-group .col-md-6 a {
+  font-size: 12px;
 }
 
 #simpletemplate .glyphicon {

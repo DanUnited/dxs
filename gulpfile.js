@@ -9,8 +9,6 @@ var paths = {
     css: '/resources/assets/sass/app.scss',
 };
 
-console.log(elixir.config.css);
-
 elixir.config.css.autoprefix = {
     enabled: true, //default, this is only here so you know how to disable
     options: {
@@ -30,18 +28,19 @@ var sassconf = {
         mix.sass('app.scss', 'public/css/app.css');                   //Compile SCSS
         mix.sass('devices.scss', 'public/css/media.css');
 
-        mix.rollup('main.js', 'resources/assets/js/app.js')         //Compile JS
-            .combine([                                              //Unity scripts
-                'jquery-2.2.2.min.js',
-                'selectivizr-min.js',
-                'bootstrap.min.js',
-                'app.js'
-            ], 'public/js/app.min.js');
-
         //build version
         mix.version([
             'css/app.css',
             'css/media.css'
         ]);
-    });
 
+        mix.rollup('main.js', 'resources/assets/js/app.js');         //Compile JS
+        mix.combine([                                              //Unity scripts
+                'jquery-2.2.2.min.js',
+                'viewport.min.js',
+                'selectivizr-min.js',
+                'bootstrap.min.js',
+                'app.js'
+            ], 'public/js/app.min.js','resources/assets/js');
+
+    });
