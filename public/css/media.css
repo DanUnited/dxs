@@ -47,6 +47,9 @@
     float: none;
     width: 100%;
   }
+  html .articleblock.right, body .articleblock.right {
+    float: none;
+  }
   html .articleblock .infoblock, body .articleblock .infoblock {
     margin: 20px 0;
     display: inline-block;

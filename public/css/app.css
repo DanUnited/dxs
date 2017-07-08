@@ -3718,19 +3718,24 @@ html .articleblock, body .articleblock {
 }
 
 html .articleblock.scale0, body .articleblock.scale0 {
-  -webkit-transform: translateY(0) scale(0);
-          transform: translateY(0) scale(0);
+  -webkit-transform: translateY(-150px) scale(0);
+          transform: translateY(-150px) scale(0);
   -webkit-transition: none;
   transition: none;
+}
+
+html .articleblock.moveDown, body .articleblock.moveDown {
+  -webkit-transform: translateY(100%) translateX(10%) scale(0.1);
+          transform: translateY(100%) translateX(10%) scale(0.1);
 }
 
 html .articleblock.show, body .articleblock.show {
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  -webkit-transition: -webkit-transform ease .8s;
-  transition: -webkit-transform ease .8s;
-  transition: transform ease .8s;
-  transition: transform ease .8s, -webkit-transform ease .8s;
+  -webkit-transition: -webkit-transform 0.8s ease .1s;
+  transition: -webkit-transform 0.8s ease .1s;
+  transition: transform 0.8s ease .1s;
+  transition: transform 0.8s ease .1s, -webkit-transform 0.8s ease .1s;
 }
 
 html .articleblock.right, body .articleblock.right {

@@ -355,12 +355,15 @@ html, body {
     padding-bottom: 20px;
     margin-bottom: 50px;
     &.scale0{
-      transform: translateY(0) scale(0);
+      transform: translateY(-150px) scale(0);
       transition: none;
+    }
+    &.moveDown{
+      transform: translateY(100%) translateX(10%) scale(0.1);
     }
     &.show{
       transform: translateY(0) scale(1);
-      transition: transform ease .8s;
+      transition: transform 0.8s ease .1s;
     }
     &.right {
       float: right;

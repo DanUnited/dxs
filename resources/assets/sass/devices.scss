@@ -57,6 +57,9 @@ $blue-dark: #5384a2;
     .articleblock {
       float: none;
       width: 100%;
+      &.right{
+        float: none;
+      }
       .infoblock {
         margin: 20px 0;
         display: inline-block;
