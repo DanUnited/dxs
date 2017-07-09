@@ -17,6 +17,11 @@
     <div class="contentpage">
         <div class="mid">
             <article class="staffarticle">
+                <div class="viewdocs">
+                    <iframe class="docviewer" src=""></iframe>
+                    <div class="closeview">Закрыть</div>
+                </div>
+
                 <table class="tabledoc">
                     <tr>
                         <td class="link"><a href="/docs/forma_obucheniya.doc">ПОЛОЖЕНИЕ О ФОРМЕ ПОЛУЧЕНИЯ ОБРАЗОВАНИЯ И ФОРМЕ ОБУЧЕНИЯ</a></td>

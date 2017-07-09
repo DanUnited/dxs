@@ -3732,10 +3732,10 @@ html .articleblock.moveDown, body .articleblock.moveDown {
 html .articleblock.show, body .articleblock.show {
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  -webkit-transition: -webkit-transform 0.8s ease .1s;
-  transition: -webkit-transform 0.8s ease .1s;
-  transition: transform 0.8s ease .1s;
-  transition: transform 0.8s ease .1s, -webkit-transform 0.8s ease .1s;
+  -webkit-transition: -webkit-transform 0.8s ease 0s;
+  transition: -webkit-transform 0.8s ease 0s;
+  transition: transform 0.8s ease 0s;
+  transition: transform 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
 }
 
 html .articleblock.right, body .articleblock.right {
@@ -3909,6 +3909,44 @@ html .contentpage article ._staffblock h3 span, html .contentpage article.staffa
 html .contentpage article.staffarticle, body .contentpage article.staffarticle {
   padding: 0;
   position: relative;
+}
+
+html .contentpage article.staffarticle .viewdocs.show .closeview, body .contentpage article.staffarticle .viewdocs.show .closeview {
+  display: block;
+}
+
+html .contentpage article.staffarticle .viewdocs.show .docviewer, body .contentpage article.staffarticle .viewdocs.show .docviewer {
+  height: 100%;
+}
+
+html .contentpage article.staffarticle .viewdocs .docviewer, body .contentpage article.staffarticle .viewdocs .docviewer {
+  position: absolute;
+  -webkit-transition: height 1.5s ease 0.1s;
+  transition: height 1.5s ease 0.1s;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  height: 0;
+  padding-bottom: 22px;
+}
+
+html .contentpage article.staffarticle .viewdocs .closeview, body .contentpage article.staffarticle .viewdocs .closeview {
+  display: none;
+  position: absolute;
+  background: #404040;
+  color: white;
+  padding: 10px 20px 9px;
+  right: 60px;
+  z-index: 99;
+  top: 13px;
+  cursor: pointer;
+}
+
+html .contentpage article.staffarticle .viewdocs .closeview:hover, body .contentpage article.staffarticle .viewdocs .closeview:hover {
+  background: gray;
 }
 
 html .contentpage article.staffarticle .columngray, body .contentpage article.staffarticle .columngray {

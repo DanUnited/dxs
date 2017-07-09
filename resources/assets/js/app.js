@@ -1,25 +1,25 @@
 (function (exports) {
 'use strict';
 
-window.addCss = function($filename){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
+window.addCss = function ($filename) {
+    var head = document.getElementsByTagName('head')[0];
+    var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = '/css/'+$filename;
+    link.href = '/css/' + $filename;
     link.media = 'all';
     head.appendChild(link);
 };
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+d.toUTCString();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + "; " + expires + ";PATH=/";
 }
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
+    for (var i = 0; i < ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
@@ -34,74 +34,80 @@ function getCookie(cname) {
 /**
  * Animate Articles
  */
-jQuery(document).ready(function() {
+jQuery(document).ready(function () {
     jQuery('.articleblock').addClass('scale0');
     jQuery('.articleblock h2').viewportChecker({
         offset: 0,
-        callbackFunction: function(elem, action){
+        callbackFunction: function (elem, action) {
             var article = elem[0].parentElement;
             $(article).addClass('moveDown');
-            setTimeout(function(){
+            setTimeout(function () {
                 $(article).addClass('show');
-            },20);
-            setTimeout(function(){
+            }, 20);
+            setTimeout(function () {
                 $(article).removeClass('scale0 moveDown show');
-            },820);
+            }, 820);
         },
     });
 });
 
-$(function() {
-    function TemplateButton(){
-        if(getCookie('template')!='simple'){
+$(function () {
+    function TemplateButton() {
+        if (getCookie('template') != 'simple') {
             /**
              * Входим в режим сайта для слабовидящих
              * Проверяем что сейчас нормальная версия сайта
              */
             addCss('template_simple.css');
             $('#simpletemplate .text').html('Обычная версия сайта');
-            setCookie('template','simple',7);
+            setCookie('template', 'simple', 7);
         }
-        else{
+        else {
             $("link[href='/css/template_simple.css']").remove();
             $('#simpletemplate .text').html('Версия для слабовидящих');
-            setCookie('template','normal',7);
+            setCookie('template', 'normal', 7);
         }
     }
-    function resetFontButtons(){
+
+    function resetFontButtons() {
         $('.rightside abbr').removeClass('active');
     }
-    function removeFontSize(){
+
+    function removeFontSize() {
         $("link[href='/css/template_fontplus.css']").remove();
         $("link[href='/css/template_fontminus.css']").remove();
     }
-    function bindFontButtons(){
+
+    function bindFontButtons() {
         $('.fontplus').click(FontPlus);
         $('.fontminus').click(FontMinus);
         $('.fontnormal').click(FontNormal);
     }
-    function FontPlus(){
+
+    function FontPlus() {
         bindFontButtons();
         resetFontButtons();
         removeFontSize();
         addCss('template_fontplus.css');
-        setCookie('template_fontsize','plus',7);
+        setCookie('template_fontsize', 'plus', 7);
         $(this).addClass("active");
         $(this).unbind();
     }
-    function FontNormal(){
+
+    function FontNormal() {
         bindFontButtons();
         resetFontButtons();
         removeFontSize();
-        setCookie('template_fontsize','normal',7);
+        setCookie('template_fontsize', 'normal', 7);
         $(this).addClass("active");
         $(this).unbind();
     }
-    function FontMinus(){
+
+    function FontMinus() {
         bindFontButtons();
         resetFontButtons();
         removeFontSize();
-        setCookie('template_fontsize','minus',7);
+        setCookie('template_fontsize', 'minus', 7);
         addCss('template_fontminus.css');
         $(this).addClass("active");
         $(this).unbind();
@@ -111,62 +117,80 @@ $(function() {
     $('#simpletemplate').click(TemplateButton);
 
     //Show login form
-    $('#auth,#auth>*').click(function(){
+    $('#auth,#auth>*').click(function () {
         var $form = document.querySelector('.user-form');
-        if($form.dataset.vision == 1){
+        if ($form.dataset.vision == 1) {
             $($form).fadeIn();
         }
     });
 
     //Close button in login-form
-    $(".back").click(function(){
+    $(".back").click(function () {
         $('.user-form').fadeOut();
     });
 
 
-    if ( ($(window).height() + 100) < $(document).height() ) {
+    if (($(window).height() + 100) < $(document).height()) {
         $('#top-link-block').removeClass('hidden').affix({
             // how far to scroll down before link "slides" into view
-            offset: {top:100}
+            offset: {top: 100}
         });
     }
 
+    var doclist = document.querySelectorAll(".link a");
+    if (doclist != []) {
+        var frame = document.querySelector('.docviewer');
+        $(".closeview").click(function () {
+            $(".viewdocs").removeClass('show');
+        });
+        doclist.forEach(function (item, i, doclist) {
+            item.onclick = function () {
+                frame.src = 'http://docs.google.com/gview?url=http://dxsh.ru' + item.getAttribute('href') + '&embedded=true';
+                $(frame).load(function(){
+                    $(".viewdocs").addClass('show');
+                });
+                return false;
+            };
+        });
+    }
 
     var mapdiv = document.getElementById('map');
-    function initialize() {
-            $(mapdiv).height(400);
-            var map = new google.maps.Map(mapdiv, {
-                center: {lat: 46.3260, lng: 39.3958},
-                zoom: 16,
-                mapTypeId: google.maps.MapTypeId.HYBRID
-            });
-            var image = {
-                url: '/img/marker_s.png',
-                size: new google.maps.Size(42, 42),
-                // The origin for this image is (0, 0).
-                origin: new google.maps.Point(0, 0),
-                // The anchor for this image is the base of the flagpole at (0, 32).
-                anchor: new google.maps.Point(0, 42)
-            };
 
-            var marker = new google.maps.Marker({
-                position: {lat: 46.32642023, lng: 39.39567581},
-                map: map,
-                title: 'ДХШ Ленинградская',
-            });
-        }
+    function initialize() {
+        $(mapdiv).height(400);
+        var map = new google.maps.Map(mapdiv, {
+            center: {lat: 46.3260, lng: 39.3958},
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        });
+        var image = {
+            url: '/img/marker_s.png',
+            size: new google.maps.Size(42, 42),
+            // The origin for this image is (0, 0).
+            origin: new google.maps.Point(0, 0),
+            // The anchor for this image is the base of the flagpole at (0, 32).
+            anchor: new google.maps.Point(0, 42)
+        };
+
+        var marker = new google.maps.Marker({
+            position: {lat: 46.32642023, lng: 39.39567581},
+            map: map,
+            title: 'ДХШ Ленинградская',
+        });
+    }
+
     if (mapdiv)
         { google.maps.event.addDomListener(window, 'load', initialize); }
 
-    if(getCookie('template')=='simple'){
+    if (getCookie('template') == 'simple') {
         addCss('template_simple.css');
         $('#simpletemplate .text').html('Обычная версия сайта');
     }
 
     var fontsize = getCookie('template_fontsize');
-    if(fontsize!=""){
-        $('.font'+fontsize).click();
-    }else
+    if (fontsize != "") {
+        $('.font' + fontsize).click();
+    } else
         { $('.fontnormal').click(); }
 });
 

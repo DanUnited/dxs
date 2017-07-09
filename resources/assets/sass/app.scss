@@ -215,8 +215,8 @@ html, body {
             line-height: 17px;
           }
         }
-        .dropdown.active a{
-            pointer-events: auto;
+        .dropdown.active a {
+          pointer-events: auto;
         }
         .dropdown-menu {
           background: $blue-light;
@@ -354,16 +354,16 @@ html, body {
     vertical-align: top;
     padding-bottom: 20px;
     margin-bottom: 50px;
-    &.scale0{
+    &.scale0 {
       transform: translateY(-150px) scale(0);
       transition: none;
     }
-    &.moveDown{
+    &.moveDown {
       transform: translateY(100%) translateX(10%) scale(0.1);
     }
-    &.show{
+    &.show {
       transform: translateY(0) scale(1);
-      transition: transform 0.8s ease .1s;
+      transition: transform 0.8s ease 0s;
     }
     &.right {
       float: right;
@@ -497,6 +497,43 @@ html, body {
       &.staffarticle {
         padding: 0;
         position: relative;
+        .viewdocs {
+          &.show {
+            .closeview{
+              display: block;
+            }
+            .docviewer {
+              height: 100%;
+            }
+          }
+          .docviewer {
+            position: absolute;
+            transition: height 1.5s ease 0.1s;
+            left: 0;
+            top: 0;
+            z-index: 99;
+            height: 100%;
+            width: 100%;
+            border: 0;
+            height: 0;
+            padding-bottom: 22px;
+          }
+          .closeview {
+            display: none;
+            position: absolute;
+            background: #404040;
+            color: white;
+            padding: 10px 20px 9px;
+            right: 60px;
+            z-index: 99;
+            top: 13px;
+            cursor: pointer;
+            &:hover {
+              background: gray;
+            }
+          }
+        }
+
         .columngray {
           width: 340px;
           background: $blue-light;
@@ -598,7 +635,7 @@ html, body {
       }
     }
   }
-  .user-form{
+  .user-form {
     display: table;
     position: fixed;
     top: 0;
@@ -607,20 +644,20 @@ html, body {
     height: 100%;
     background: $blue-dark;
     color: $blue-dark;
-    .outer{
+    .outer {
       display: table-cell;
       vertical-align: middle;
       position: relative;
       top: -20%;
-      >h2{
+      > h2 {
         color: white;
         font-size: 16px;
         padding: 10px 0;
-        p:nth-child(2){
+        p:nth-child(2) {
           font-size: 12px;
         }
       }
-      .panel-body{
+      .panel-body {
         max-width: 340px;
         position: relative;
         margin: 0 auto;
@@ -628,7 +665,7 @@ html, body {
         border-radius: 5px;
         box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.35);
         padding: 10px 20px;
-        .back{
+        .back {
           position: absolute;
           width: auto;
           top: 0;
@@ -640,12 +677,12 @@ html, body {
           color: #5384a2;
           border-right: 1px solid #efefef;
           border-bottom: 1px solid #efefef;
-          &:hover{
+          &:hover {
             background: $blue-dark;
             color: white;
           }
         }
-        .bottompanel{
+        .bottompanel {
           position: absolute;
           left: 0;
           background: #f9fafc;
@@ -655,20 +692,20 @@ html, body {
           border-top: 1px solid #efefef;
           margin-top: 5px;
         }
-        .form-group{
+        .form-group {
           text-align: right;
-          .btn-primary{
-            border:0;
-            &:hover{
+          .btn-primary {
+            border: 0;
+            &:hover {
               color: white;
               background-color: #f39c12;
               border: 0;
               text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
             }
           }
-          .col-md-6{
+          .col-md-6 {
             padding: 0;
-            a{
+            a {
               font-size: 12px;
             }
           }
