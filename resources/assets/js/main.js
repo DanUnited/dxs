@@ -33,6 +33,7 @@ function getCookie(cname) {
 /**
  * Animate Articles
  */
+
 jQuery(document).ready(function () {
     jQuery('.articleblock').addClass('scale0');
     jQuery('.articleblock h2').viewportChecker({
@@ -57,12 +58,12 @@ $(function () {
              * Входим в режим сайта для слабовидящих
              * Проверяем что сейчас нормальная версия сайта
              */
-            addCss('template_simple.css');
+            addCss('app_s.css');
             $('#simpletemplate .text').html('Обычная версия сайта');
             setCookie('template', 'simple', 7);
         }
         else {
-            $("link[href='/css/template_simple.css']").remove();
+            $("link[href='/css/app_s.css']").remove();
             $('#simpletemplate .text').html('Версия для слабовидящих');
             setCookie('template', 'normal', 7);
         }
@@ -144,8 +145,17 @@ $(function () {
         });
         doclist.forEach(function (item, i, doclist) {
             item.onclick = function () {
+
+                /**
+                 * Show load indicator, move spinner to href position
+                 */
+                var $y = $(item).offset().top-$('.staffarticle').offset().top+20;
+                $('.loadindicator').fadeIn();
+                $('.osahanloading').css('top',$y);
+
                 frame.src = 'http://docs.google.com/gview?url=http://dxsh.ru' + item.getAttribute('href') + '&embedded=true';
                 $(frame).load(function(){
+                    $('.loadindicator').fadeOut();
                     $(".viewdocs").addClass('show');
                 });
                 return false;
@@ -182,7 +192,7 @@ $(function () {
         google.maps.event.addDomListener(window, 'load', initialize);
 
     if (getCookie('template') == 'simple') {
-        addCss('template_simple.css');
+        addCss('app_s.css');
         $('#simpletemplate .text').html('Обычная версия сайта');
     }
 

@@ -1,5 +1,4 @@
-(function (exports) {
-'use strict';
+"use strict";
 
 window.addCss = function ($filename) {
     var head = document.getElementsByTagName('head')[0];
@@ -12,7 +11,7 @@ window.addCss = function ($filename) {
 };
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
-    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
     var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + "; " + expires + ";PATH=/";
 }
@@ -34,11 +33,12 @@ function getCookie(cname) {
 /**
  * Animate Articles
  */
+
 jQuery(document).ready(function () {
     jQuery('.articleblock').addClass('scale0');
     jQuery('.articleblock h2').viewportChecker({
         offset: 0,
-        callbackFunction: function (elem, action) {
+        callbackFunction: function callbackFunction(elem, action) {
             var article = elem[0].parentElement;
             $(article).addClass('moveDown');
             setTimeout(function () {
@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
             setTimeout(function () {
                 $(article).removeClass('scale0 moveDown show');
             }, 820);
-        },
+        }
     });
 });
 
@@ -58,12 +58,11 @@ $(function () {
              * Входим в режим сайта для слабовидящих
              * Проверяем что сейчас нормальная версия сайта
              */
-            addCss('template_simple.css');
+            addCss('app_s.css');
             $('#simpletemplate .text').html('Обычная версия сайта');
             setCookie('template', 'simple', 7);
-        }
-        else {
-            $("link[href='/css/template_simple.css']").remove();
+        } else {
+            $("link[href='/css/app_s.css']").remove();
             $('#simpletemplate .text').html('Версия для слабовидящих');
             setCookie('template', 'normal', 7);
         }
@@ -129,11 +128,10 @@ $(function () {
         $('.user-form').fadeOut();
     });
 
-
-    if (($(window).height() + 100) < $(document).height()) {
+    if ($(window).height() + 100 < $(document).height()) {
         $('#top-link-block').removeClass('hidden').affix({
             // how far to scroll down before link "slides" into view
-            offset: {top: 100}
+            offset: { top: 100 }
         });
     }
 
@@ -145,8 +143,17 @@ $(function () {
         });
         doclist.forEach(function (item, i, doclist) {
             item.onclick = function () {
+
+                /**
+                 * Show load indicator, move spinner to href position
+                 */
+                var $y = $(item).offset().top - $('.staffarticle').offset().top + 20;
+                $('.loadindicator').fadeIn();
+                $('.osahanloading').css('top', $y);
+
                 frame.src = 'http://docs.google.com/gview?url=http://dxsh.ru' + item.getAttribute('href') + '&embedded=true';
-                $(frame).load(function(){
+                $(frame).load(function () {
+                    $('.loadindicator').fadeOut();
                     $(".viewdocs").addClass('show');
                 });
                 return false;
@@ -159,7 +166,7 @@ $(function () {
     function initialize() {
         $(mapdiv).height(400);
         var map = new google.maps.Map(mapdiv, {
-            center: {lat: 46.3260, lng: 39.3958},
+            center: { lat: 46.3260, lng: 39.3958 },
             zoom: 16,
             mapTypeId: google.maps.MapTypeId.HYBRID
         });
@@ -173,26 +180,21 @@ $(function () {
         };
 
         var marker = new google.maps.Marker({
-            position: {lat: 46.32642023, lng: 39.39567581},
+            position: { lat: 46.32642023, lng: 39.39567581 },
             map: map,
-            title: 'ДХШ Ленинградская',
+            title: 'ДХШ Ленинградская'
         });
     }
 
-    if (mapdiv)
-        { google.maps.event.addDomListener(window, 'load', initialize); }
+    if (mapdiv) google.maps.event.addDomListener(window, 'load', initialize);
 
     if (getCookie('template') == 'simple') {
-        addCss('template_simple.css');
+        addCss('app_s.css');
         $('#simpletemplate .text').html('Обычная версия сайта');
     }
 
     var fontsize = getCookie('template_fontsize');
     if (fontsize != "") {
         $('.font' + fontsize).click();
-    } else
-        { $('.fontnormal').click(); }
+    } else $('.fontnormal').click();
 });
-
-}((this.LaravelElixirBundle = this.LaravelElixirBundle || {})));
-//# sourceMappingURL=app.js.map

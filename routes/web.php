@@ -6,8 +6,10 @@
 |--------------------------------------------------------------------------
 */
 
+Route::group(['middleware' => ['web']], function () {
+    Auth::routes();
+});
 
-Auth::routes();
 
 Route::get('/', ['as' => 'main',function () {
     return view('index');
@@ -23,6 +25,9 @@ Route::get('/{folder}/{name}', ['as'=>'article',function ($folder,$name) {
     'folder'=>'[A-z_]+',
     'name'=>'[A-z_]+']);
 
+Route::get('/svg',function(){
+    return view('svg');
+});
 
 
 

@@ -21,6 +21,11 @@
                     <iframe class="docviewer" src=""></iframe>
                     <div class="closeview">Закрыть</div>
                 </div>
+                <div class="loadindicator" style="display: none">
+                    <div class="animationload">
+                        <div class="osahanloading"></div>
+                    </div>
+                </div>
 
                 <table class="tabledoc">
                     <tr>
@@ -194,7 +199,11 @@
                         <td class="type">.DOC [109 КБ]</td>
                     </tr>
                 </table>
+                <article class="singleton">
+                    <p>*Все документы можно просмотреть без скачивания прямо на нашем сайте.</p>
+                </article>
             </article>
+
             <aside class="rightmenu">
                 @include('rightmenu')
             </aside>

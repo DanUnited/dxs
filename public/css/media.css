@@ -211,8 +211,7 @@
 
 @media all and (max-width: 560px) {
   html .contentheader, body .contentheader {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     height: auto;
   }
   html .contentheader h2, body .contentheader h2 {
@@ -225,8 +224,7 @@
     padding: 0;
   }
   html .carousel, body .carousel {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   html .carousel-caption, body .carousel-caption {
     font-size: 11px;

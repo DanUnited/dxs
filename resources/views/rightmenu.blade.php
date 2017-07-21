@@ -1,6 +1,6 @@
 <ul>
-    <li><a href="">Главная</a></li>
-    <li><a href="">Сведения об организации</a>
+    <li><a href="/">Главная</a></li>
+    <li><a href="/schoolinfo/basicinfo">Сведения об организации</a>
         <ul>
             <li><a href="/schoolinfo/basicinfo" class="{{ Ekko::isActiveURL('/schoolinfo/basicinfo') }}">Основные сведения</a></li>
             <li><a href="">Структура и органы управления</a></li>
