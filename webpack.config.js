@@ -1,24 +1,24 @@
-var webpack = require("webpack");
+var path = require('path');
+var HTMLWebpackPlugin = require('html-webpack-plugin')
+
 module.exports = {
-    // входная точка нашего приложения
-    entry : './public/js/main.js',
+    /*devtool: 'eval',
+    entry: [
+        './src/application.js'
+    ],
     output: {
-        // результат работы Webpack будет в файле с таким именем
-        filename: 'public/js/bundle.js'
-    },
-    module: {
-        loaders: [
-            {
-                test   : /\.js$/,
-                exclude: /node_modules/,
-                loader : 'babel-loader',
-                query  : {
-                    presets: [ 'es2015' ]
-                }
-            }
-        ]
+        path: path.join(__dirname, 'build', 'static'),
+        filename: 'application.js',
+        publicPath: '/'
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin(),
-    ]
+        new HTMLWebpackPlugin({title: 'Hot Reload'})
+    ],*/
+    module: {
+        loaders: [{
+            test: /\.jsx?$/,
+            loaders: ['babel'],
+            exclude: /node_modules/
+        }]
+    }
 };

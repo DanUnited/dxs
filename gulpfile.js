@@ -6,15 +6,27 @@ var concat = require('gulp-concat');
 const babel = require('gulp-babel');
 var rename = require("gulp-rename");
 var sass = require('gulp-sass');
+var elixir = require('laravel-elixir');
+require('laravel-elixir-vue-2');
 
-var debug = true;
-
-var paths = {
-    css: '/resources/assets/sass/app.scss',
-};
+var gutils = require('gulp-util');
+var  b = elixir.config.js.browserify;
+console.log(elixir.config);
 
 var js_folder = './resources/assets/js/';
 var scss_folder = './resources/assets/sass/';
+
+/*if(gutils.env._.indexOf('watch') > -1){
+    b.plugins.push({
+        name: "browserify-hmr",
+        options : {}
+    });
+}
+
+b.transformers.push({
+    name: "vueify",
+    options : {}
+});*/
 
 var js_list = [
     'jquery-2.2.2.min.js',
@@ -41,10 +53,6 @@ gulp.task('js', ['app.js'], function () {
         .pipe(concat('app.min.js'))
         .pipe(gulp.dest('./public/js'));
 });
-
-var elixir = require('laravel-elixir');
-require('laravel-elixir-vue-2');
-
 Elixir.extend('watchjs', function() {
     new Elixir.Task('watchjs', function(){
         return gulp
@@ -74,8 +82,7 @@ elixir(function (mix) {
         './public/css/media.css'
     ]);
 
-    mix.task('js',gulp.watch(js_folder + 'main.js', ['js'])
-    );
+    mix.task('js',js_folder+'main.js');
     //mix.watchjs();
 });
 
@@ -84,7 +91,7 @@ gulp.task('elixir', function(){
     elixir(function (mix) {
             mix.sass('app.scss');
         });
-    console.log(elixir.fail);
+    //console.log(elixir.fail);
 
     }
 );

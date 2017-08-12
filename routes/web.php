@@ -22,8 +22,8 @@ Route::get('/contacts', ['as' => 'contacts',function () {
 Route::get('/{folder}/{name}', ['as'=>'article',function ($folder,$name) {
     return view($folder.'.'.$name);
 }])->where([
-    'folder'=>'[A-z_]+',
-    'name'=>'[A-z_]+']);
+    'folder'=>'\w+',
+    'name'=>'\w+']);
 
 Route::get('/svg',function(){
     return view('svg');

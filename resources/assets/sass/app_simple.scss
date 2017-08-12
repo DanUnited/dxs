@@ -1,6 +1,45 @@
+$body-background: white;
+$blue-dark: #175684;
+$blue-background: #f3f7f9;
+$menu-background: #005f82;
+$menu-hover: black;
+$header-color: white;
+$header-background: #595959;
+
+/**
+Позволяет плавно проигрывать смену шаблона
+ */
+*{
+    transition: all 0.6s ease-out 0s;
+}
+
 html, body {
+    .graymenu{
+        background: $menu-background;
+        box-shadow: none;
+        .navbar-default .navbar-nav > li.active > a{
+            color: $blue-dark;
+            border-top: 4px solid $blue-dark;
+            background: $body-background;
+            &:hover{
+                color: $menu-hover;
+            }
+        }
+        .navbar-default .navbar-nav > li > a{
+            color: white;
+            margin-top: -1px;
+            &::before{
+                background: $body-background;
+            }
+            &:hover{
+                text-shadow: 1px 0px 0px #000;
+                text-decoration: underline;
+                color: $header-color;
+            }
+        }
+    }
     .body{
-        background: white;
+        background: $body-background;
         .topbar{
             box-shadow: none;
             background: black;
@@ -24,6 +63,19 @@ html, body {
                     transform: none;
                     transition: none;
                 }
+            }
+        }
+    }
+    .articleblock{
+        width: 100%;
+        outline: 0;
+        h2{
+            border:0;
+            border-left: 5px solid #c7c7c7;
+            background: $header-background;
+            color: $header-color;
+            a{
+                color: $header-color;
             }
         }
     }
