@@ -3419,6 +3419,10 @@ html .rightside .active, body .rightside .active {
   background: #0C6F96;
 }
 
+html .rightside > *, body .rightside > * {
+  float: left;
+}
+
 html .rightside span, html .rightside abbr, body .rightside span, body .rightside abbr {
   height: 100%;
   min-width: 45px;

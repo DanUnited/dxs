@@ -140,6 +140,9 @@ html, body {
     .active {
       background: #0C6F96;
     }
+    >*{
+      float: left;
+    }
     span, abbr {
       height: 100%;
       min-width: 45px;
