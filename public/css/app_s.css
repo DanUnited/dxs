@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+Позволяет плавно проигрывать смену шаблона
+ */
+* {
+  transition: all 0.6s ease-out 0s;
+}
+
+html .graymenu, body .graymenu {
+  background: #005f82;
+  box-shadow: none;
+}
+
+html .graymenu .navbar-default .navbar-nav > li.active > a, body .graymenu .navbar-default .navbar-nav > li.active > a {
+  color: #175684;
+  border-top: 4px solid #175684;
+  background: white;
+}
+
+html .graymenu .navbar-default .navbar-nav > li.active > a:hover, body .graymenu .navbar-default .navbar-nav > li.active > a:hover {
+  color: black;
+}
+
+html .graymenu .navbar-default .navbar-nav > li > a, body .graymenu .navbar-default .navbar-nav > li > a {
+  color: white;
+  margin-top: -1px;
+}
+
+html .graymenu .navbar-default .navbar-nav > li > a::before, body .graymenu .navbar-default .navbar-nav > li > a::before {
+  background: white;
+}
+
+html .graymenu .navbar-default .navbar-nav > li > a:hover, body .graymenu .navbar-default .navbar-nav > li > a:hover {
+  text-shadow: 1px 0px 0px #000;
+  text-decoration: underline;
+  color: white;
+}
+
+html .body, body .body {
+  background: white;
+}
+
+html .body .topbar, body .body .topbar {
+  box-shadow: none;
+  background: black;
+}
+
+html .body .topbar .rightside #auth, body .body .topbar .rightside #auth {
+  display: none;
+}
+
+html .body .contentheader, body .body .contentheader {
+  display: none;
+}
+
+html .body .mid .articleblock, body .body .mid .articleblock {
+  display: block;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+html .body .mid .articleblock.scale0, html .body .mid .articleblock.moveDown, html .body .mid .articleblock.show, body .body .mid .articleblock.scale0, body .body .mid .articleblock.moveDown, body .body .mid .articleblock.show {
+  -webkit-transform: none;
+  transform: none;
+  transition: none;
+}
+
+html .articleblock, body .articleblock {
+  width: 100%;
+  outline: 0;
+}
+
+html .articleblock h2, body .articleblock h2 {
+  border: 0;
+  border-left: 5px solid #c7c7c7;
+  background: #595959;
+  color: white;
+}
+
+html .articleblock h2 a, body .articleblock h2 a {
+  color: white;
+}
+
+/*# sourceMappingURL=app_s.css.map */
