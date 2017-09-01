@@ -48,10 +48,13 @@
         <section class="articleblock">
             <h2>Расписание занятий</h2>
             <article>
-                Утверждено расписание занятий детской художественной школы на 2017-2018 уч. год
-
-                    <button class="btn btn-primary"><a href="/news/schedule">Открыть раписание</a></button>
-
+                <div class="thumbnail">
+                    <img src="/img/article/schedule.png">
+                </div>
+                <p>
+                    Утверждено расписание занятий детской художественной школы на 2017-2018 уч. год
+                </p>
+                <a href="/news/schedule" class="btn btn-primary">Открыть раписание</a>
             </article>
         </section>
 

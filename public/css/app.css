@@ -3697,6 +3697,13 @@ html .articleblock, body .articleblock {
   vertical-align: top;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  clear: left;
+}
+
+html .articleblock:after, body .articleblock:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 html .articleblock.scale0, body .articleblock.scale0 {
@@ -3716,14 +3723,15 @@ html .articleblock.show, body .articleblock.show {
   transition: -webkit-transform 0.8s ease 0s;
   transition: transform 0.8s ease 0s;
   transition: transform 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
+  display: inline-block !important;
 }
 
 html .articleblock.right, body .articleblock.right {
-  float: right;
+  float: none;
 }
 
 html .articleblock:nth-child(2n), body .articleblock:nth-child(2n) {
-  float: right;
+  float: none;
 }
 
 html .articleblock *, body .articleblock * {
@@ -3830,6 +3838,18 @@ html .articleblock article, body .articleblock article {
   line-height: 1.5;
 }
 
+html .articleblock article .thumbnail, body .articleblock article .thumbnail {
+  padding: 0;
+  margin: 0 -26px;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+html .articleblock article p, body .articleblock article p {
+  padding-left: 0;
+  text-indent: 20px;
+}
+
 html .articleblock ul, body .articleblock ul {
   list-style-type: square;
 }
@@ -3838,12 +3858,11 @@ html .articleblock ul li, body .articleblock ul li {
   padding-left: 0px !important;
 }
 
-html .articleblock button, body .articleblock button {
-  padding: 10px 20px;
-}
-
-html .articleblock button a, body .articleblock button a {
+html .articleblock .btn, body .articleblock .btn {
   color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 html .contentpage .mid, body .contentpage .mid {
@@ -4068,6 +4087,10 @@ html .contentpage article.singleton p, body .contentpage article.singleton p {
 html .contentpage article.singleton .btn, body .contentpage article.singleton .btn {
   margin-left: -15px;
   border: 0;
+}
+
+html .contentpage article.singleton .tab-content, body .contentpage article.singleton .tab-content {
+  padding-top: 30px;
 }
 
 html .contentpage article p, body .contentpage article p {

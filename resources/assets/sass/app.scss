@@ -372,6 +372,12 @@ html, body {
     vertical-align: top;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    clear: left;
+    &:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
     &.scale0 {
       transform: translateY(-150px) scale(0);
       transition: none;
@@ -382,12 +388,13 @@ html, body {
     &.show {
       transform: translateY(0) scale(1);
       transition: transform 0.8s ease 0s;
+      display: inline-block !important;
     }
     &.right {
-      float: right;
+      float: none;
     }
     &:nth-child(2n) {
-      float: right;
+      float: none;
     }
     * {
       padding: 0 25px;
@@ -465,6 +472,16 @@ html, body {
       margin-top: 20px;
       text-indent: 20px;
       line-height: 1.5;
+      .thumbnail{
+        padding: 0;
+        margin: 0 -26px;
+        border: 0;
+        margin-bottom: 20px;
+      }
+      p{
+        padding-left: 0;
+        text-indent: 20px;
+      }
     }
     ul {
       list-style-type: square;
@@ -472,11 +489,11 @@ html, body {
         padding-left: 0px !important;
       }
     }
-    button{
+    .btn{
+      color: white;
       padding: 10px 20px;
-      a{
-        color: white;
-      }
+      display: inline-block;
+      text-decoration: none;
     }
   }
   .contentpage {
@@ -655,6 +672,9 @@ html, body {
           &:hover {
 
           }
+        }
+        .tab-content{
+          padding-top: 30px;
         }
       }
       p {
