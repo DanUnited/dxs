@@ -3838,6 +3838,14 @@ html .articleblock ul li, body .articleblock ul li {
   padding-left: 0px !important;
 }
 
+html .articleblock button, body .articleblock button {
+  padding: 10px 20px;
+}
+
+html .articleblock button a, body .articleblock button a {
+  color: white;
+}
+
 html .contentpage .mid, body .contentpage .mid {
   position: relative;
   text-align: left;

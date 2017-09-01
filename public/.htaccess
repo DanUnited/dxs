@@ -18,3 +18,10 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 </IfModule>
+
+# сжатие text, html, javascript, css, xml:
+<ifModule mod_deflate.c>
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript image/svg+xml
+</ifModule>
