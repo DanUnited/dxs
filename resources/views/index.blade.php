@@ -54,7 +54,7 @@
                 <p>
                     Утверждено расписание занятий детской художественной школы на 2017-2018 уч. год
                 </p>
-                <a href="/news/schedule" class="btn btn-primary">Открыть раписание</a>
+                <a href="/news/schedule" class="btn btn-primary"> Открыть раписание </a>
             </article>
         </section>
 
