@@ -11,6 +11,10 @@ html .graymenu, body .graymenu {
   box-shadow: none;
 }
 
+html .graymenu *, body .graymenu * {
+  transition: none;
+}
+
 html .graymenu .navbar-default .navbar-nav > li.active > a, body .graymenu .navbar-default .navbar-nav > li.active > a {
   color: #175684;
   border-top: 4px solid #175684;
@@ -43,6 +47,10 @@ html .body, body .body {
 html .body .topbar, body .body .topbar {
   box-shadow: none;
   background: black;
+}
+
+html .body .topbar .rightside .template-settings, body .body .topbar .rightside .template-settings {
+  display: inline-block;
 }
 
 html .body .topbar .rightside #auth, body .body .topbar .rightside #auth {

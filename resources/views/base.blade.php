@@ -174,6 +174,7 @@
     </div>
 </div>
 </body>
+<script src="https://webasr.yandex.net/jsapi/v1/webspeechkit.js" type="text/javascript"></script>
 <script src="/js/app.min.js"></script>
 @section('scripts') @show
 </html>

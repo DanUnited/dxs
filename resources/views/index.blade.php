@@ -52,10 +52,14 @@
                     <img src="/img/article/schedule.png">
                 </div>
                 <p>
-                    Утверждено расписание занятий детской художественной школы на 2017-2018 уч. год
+                    Утверждено расписание занятий детской художественной школы на 2017-2018 учебный год.
                 </p>
-                <a href="/news/schedule" class="btn btn-primary"> Открыть раписание </a>
             </article>
+            <div class="divider"></div>
+            <div class="control">
+                <button class="btn btn-primary voice"><i class="glyphicon glyphicon-headphones"></i> </button>
+                <a href="/news/schedule" class="btn btn-primary"> Открыть раписание </a>
+            </div>
         </section>
 
         <section class="articleblock right">
@@ -69,8 +73,10 @@
                 детской художественной школы.
             </article>
             <div class="divider"></div>
-            <a href="/news/historyschool" class="readmore">Читать далее <span class="glyphicon glyphicon-forward"
-                                                                              aria-hidden="true"></span></a>
+            <div class="control">
+                <button class="btn btn-primary voice"><i class="glyphicon glyphicon-headphones"></i> </button>
+                <a href="/news/historyschool" class="btn btn-primary">Читать далее <span class="glyphicon glyphicon-forward"></span></a>
+            </div>
         </section>
 
         <section class="articleblock">
@@ -83,6 +89,9 @@
                 <p>Занятия ведутся в две смены: с 8:00 первая смена и с 14:00 вторая смена. В школе шестидневная учебная
                     неделя.</p>
             </article>
+            <div class="control">
+                <button class="btn btn-primary voice"><i class="glyphicon glyphicon-headphones"></i> </button>
+            </div>
             <div class="divider"></div>
             <div class="infoblock">
                 <img src="/img/215.jpg">
@@ -116,6 +125,9 @@
                     <li>Пленэр</li>
                 </ul>
             </article>
+            <div class="control">
+                <button class="btn btn-primary voice"><i class="glyphicon glyphicon-headphones"></i> </button>
+            </div>
         </section>
 
     </div>

@@ -3444,10 +3444,6 @@ html .rightside span:hover, html .rightside abbr:hover, body .rightside span:hov
   cursor: pointer;
 }
 
-html .rightside .template-settings, body .rightside .template-settings {
-  display: none;
-}
-
 html .graymenu, body .graymenu {
   height: 50px;
   width: 100%;
@@ -3609,7 +3605,7 @@ html .body, body .body {
 }
 
 html .body > div, body .body > div {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 html .footer, body .footer {
@@ -3701,7 +3697,6 @@ html .articleblock, body .articleblock {
   vertical-align: top;
   padding-bottom: 20px;
   margin-bottom: 50px;
-  clear: left;
 }
 
 html .articleblock:after, body .articleblock:after {
@@ -3727,15 +3722,14 @@ html .articleblock.show, body .articleblock.show {
   transition: -webkit-transform 0.8s ease 0s;
   transition: transform 0.8s ease 0s;
   transition: transform 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
-  display: inline-block !important;
 }
 
 html .articleblock.right, body .articleblock.right {
-  float: none;
+  float: right;
 }
 
 html .articleblock:nth-child(2n), body .articleblock:nth-child(2n) {
-  float: none;
+  float: right;
 }
 
 html .articleblock *, body .articleblock * {
@@ -3835,53 +3829,6 @@ html .articleblock .readmore .glyphicon, body .articleblock .readmore .glyphicon
   top: 0px;
 }
 
-html .articleblock .control, body .articleblock .control {
-  text-align: right;
-}
-
-html .articleblock .control button:focus, body .articleblock .control button:focus {
-  outline: 0;
-}
-
-@-webkit-keyframes move {
-  from {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes move {
-  from {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-html .articleblock .control .move, body .articleblock .control .move {
-  -webkit-animation: move 2s infinite linear;
-  animation: move 2s infinite linear;
-}
-
-html .articleblock .control .move:before, body .articleblock .control .move:before {
-  content: '\e031';
-}
-
-html .articleblock .control .glyphicon, body .articleblock .control .glyphicon {
-  padding: 0;
-}
-
-html .articleblock .control a .glyphicon, body .articleblock .control a .glyphicon {
-  padding-left: 10px;
-}
-
 html .articleblock article, body .articleblock article {
   font-size: 16px;
   margin-top: 20px;
@@ -3909,7 +3856,12 @@ html .articleblock ul li, body .articleblock ul li {
   padding-left: 0px !important;
 }
 
-html .articleblock .btn, body .articleblock .btn {
+html .articleblock button, body .articleblock button {
+  padding: 0;
+  text-decoration: none;
+}
+
+html .articleblock button a, body .articleblock button a {
   color: white;
   padding: 10px 20px;
   display: inline-block;

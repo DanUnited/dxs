@@ -32,6 +32,9 @@
     <p itemprop="employee"><b>Кузнецова Эльвира Валентиновна</b>, зам. директора по учебно-методической работе.</p>
     <p>Контактный телефон: 8 (918) 690-0-387</p>
     <p><b>Иванова Светлана Александровна</b>, секретарь.</p>
+    <div class="control">
+        <button class="btn btn-primary voice"><i class="glyphicon glyphicon-headphones"></i> </button>
+    </div>
     <h3>Карта проезда</h3>
     <div id="map">
     </span>

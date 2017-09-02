@@ -9,6 +9,7 @@ window.addCss = function ($filename) {
     link.media = 'all';
     head.appendChild(link);
 };
+
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
@@ -49,6 +50,45 @@ jQuery(document).ready(function () {
             }, 820);
         }
     });
+
+    // Yandex Распознавание речи
+    window.speak = function (text, that) {
+        window.tts = new ya.speechkit.Tts(
+        // Настройки синтеза. Список доступных настроек см. в справочнике.
+        {
+            // API-ключ. Может быть задан глобально через объект ya.speechkit.settings.
+            apikey: '9dc308e1-c192-4a7a-b80a-98c2be3a1509',
+            // Эмоциональная окраска: добрый голос. neutral, good, evil
+            emotion: 'good',
+            // Скорость речи.
+            speed: 1.0,
+            // Имя диктора. valtz
+            speaker: 'valtz',
+            //Качество минимум из за размера
+            quality: 'low',
+            stopCallback: function stopCallback() {
+                $(that).prop('disabled', false);
+                $(that).children('i').removeClass('move');
+            }
+        });
+        window.tts.speak(text);
+    };
+
+    $('button.voice').click(function () {
+        var $that = $(this);
+        var $voice_text = $(this).closest('section');
+
+        if ($voice_text.length > 0) {
+            $that.children('i').addClass('move');
+            $that.prop('disabled', true);
+            speak($voice_text.children('article').text().replace(/\s{2,}/g, ' '), $that);
+        } else {
+            $voice_text = $that.closest('article');
+            $that.prop('disabled', true);
+            if ($voice_text.length > 0) speak($voice_text.text().replace(/\s{2,}/g, ' '), $that);
+        }
+    });
+    //End Speach
 });
 
 $(function () {
@@ -113,6 +153,7 @@ $(function () {
     }
 
     bindFontButtons();
+
     $('#simpletemplate').click(TemplateButton);
 
     //Show login form

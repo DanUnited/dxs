@@ -17,6 +17,9 @@ html, body {
     .graymenu{
         background: $menu-background;
         box-shadow: none;
+        *{
+            transition: none;
+        }
         .navbar-default .navbar-nav > li.active > a{
             color: $blue-dark;
             border-top: 4px solid $blue-dark;
@@ -43,6 +46,11 @@ html, body {
         .topbar{
             box-shadow: none;
             background: black;
+            .rightside{
+                .template-settings{
+                    display: inline-block;
+                }
+            }
         }
         .topbar{
             .rightside{
